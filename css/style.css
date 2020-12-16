@@ -1,0 +1,43 @@
+body,html{
+   
+   font-family: 'Varela', sans-serif;
+   height: 100%;
+   width: 100%;
+   background: url('../images/header.jpg') no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ 
+}
+h1{
+   font-size: 3rem;
+   color: #e2dbdb;
+}
+hr {
+   border-color: red;
+   border-width: 3px;
+   max-width: 65px;
+}
+
+.buffer{
+   height: 10rem;
+}
+.btn-xl{
+   padding: 1rem 2rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+   background-color:orangered;
+   border-color: orangered;
+}
+.btn-primary:hover{
+   background-color: red;
+   border-color: red;
+   border-width: 4px;
+}
